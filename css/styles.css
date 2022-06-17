@@ -70,12 +70,14 @@ body {
     color: var(--primary-headlines-color);
     text-decoration: none;
     line-height: 1.14;
+    font-weight: 500;
 }
 
 .adress-item {
     color: var(--primary-headlines-color);
     text-decoration: none;
     line-height: 1.14;
+    font-weight: 500;
 }
 
 .link:hover, .link:focus,
@@ -126,7 +128,6 @@ body {
 
 .list-text {
     color: var(--text-color);
-    font-weight: 400;
     line-height: 1.71;
     letter-spacing: 0.03em;
 }
@@ -149,11 +150,11 @@ body {
     line-height: 1.19;
     letter-spacing: 0.03em;
     text-align: center;
+    font-weight: 500;
 }
 
 .text-descridtion {
     color: var(--text-color);
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
@@ -174,7 +175,6 @@ body {
 
 .address {
     color: var(--secondary-text-color);
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -185,7 +185,6 @@ footer {
 }
 
 .footer-address {
-    font-weight: 400;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
@@ -194,5 +193,3 @@ footer {
 }
 
 /* Portfolio.html */
-
-/* Site-nav */

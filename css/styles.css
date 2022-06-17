@@ -1,0 +1,198 @@
+/* --Колір заголовків - #212121 */
+/* Колір лого - #000000 */
+/* --Вторинний колір - #FFFFFF */
+/* --Колір тексту - #757575*/
+/* --Інтерактивний колір - #2196F3 */
+/* --Колір фону первинний - #FFFFFF */
+/* --Колір фону вторинний - #E5E5E5 */
+/* --Колір фону третинний - #F5F4FA */
+/* --Колір фону герой та футер - #2F303A */
+
+:root {
+    --primary-headlines-color: #212121;
+    --secondary-text-color: #FFFFFF;
+    --text-color: #757575;
+    --interactive-color: #2196F3;
+    --primary-bcg-color: #FFFFFF;
+    --secondary-bcg-color: #E5E5E5;
+    --trethiary-bcg-color: #F5F4FA;
+    --hero-bcg-color: #2F303A;
+
+    --font-family-primary: 'Roboto', sans-serif;
+   
+}
+
+body {
+    font-family: var(--font-family-primary);
+    background-color: var(--primary-bcg-color);
+    color: var(--primary-headlines-color);
+    line-height: 2;
+    font-size: 14px;
+    letter-spacing: 0.02em;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.list {
+    list-style: none;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+/* Site-nav */
+.site-nav {
+    background-color: var(--primary-bcg-color);
+}
+
+.logo {
+    color: #000000;
+    text-decoration: none;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+}
+
+.logo-color {
+    color: var(--interactive-color)
+}
+
+.link {
+    color: var(--primary-headlines-color);
+    text-decoration: none;
+    line-height: 1.14;
+}
+
+.adress-item {
+    color: var(--primary-headlines-color);
+    text-decoration: none;
+    line-height: 1.14;
+}
+
+.link:hover, .link:focus,
+.adress-item:hover, .adress-item:focus {
+    color: var(--interactive-color);
+}
+.site-nav .link-nav .current {
+    color: var(--interactive-color);
+}
+
+/* Hero */
+.hero {
+    background-color: var(--hero-bcg-color);
+}
+
+.hero-title {
+    color: var(--secondary-text-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.button {
+    color: var(--secondary-text-color);
+    background-color: var(--interactive-color);
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+}
+
+/* Sections */
+
+/* Benefits */
+.list-title {
+    font-weight: 700;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.list-text {
+    color: var(--text-color);
+    font-weight: 400;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
+/* What are we doing */
+
+/* Our team */
+
+.team {
+    background-color: var(--secondary-bcg-color);
+}
+
+.description-box {
+    background-color: var(--primary-bcg-color);
+    width: 270px;
+}
+
+.subject {
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    text-align: center;
+}
+
+.text-descridtion {
+    color: var(--text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+/* Footer */
+
+.footer-logo {
+    color: var(--secondary-text-color);
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+}
+
+.address {
+    color: var(--secondary-text-color);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
+footer {
+    background-color: var(--hero-bcg-color);
+}
+
+.footer-address {
+    font-weight: 400;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+
+}
+
+/* Portfolio.html */
+
+/* Site-nav */

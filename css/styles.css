@@ -26,7 +26,6 @@ body {
     font-family: var(--font-family-primary);
     background-color: var(--primary-bcg-color);
     color: var(--primary-headlines-color);
-    line-height: 2;
     font-size: 14px;
     letter-spacing: 0.02em;
 }
@@ -74,14 +73,16 @@ body {
 }
 
 .adress-item {
-    color: var(--primary-headlines-color);
+    color: var(--text-color);
     text-decoration: none;
     line-height: 1.14;
     font-weight: 500;
 }
 
 .link:hover, .link:focus,
-.adress-item:hover, .adress-item:focus {
+.adress-item:hover, .adress-item:focus,
+.portfolio-text:hover, .portfolio-text:focus,
+.subject-portfolio:hover, .subject-portfolio:focus {
     color: var(--interactive-color);
 }
 .site-nav .link-nav .current {
@@ -121,6 +122,7 @@ body {
 /* Benefits */
 .list-title {
     font-weight: 700;
+    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
@@ -178,6 +180,7 @@ body {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
+    font-style: normal;
 }
 
 footer {
@@ -193,3 +196,49 @@ footer {
 }
 
 /* Portfolio.html */
+
+/* Main portfolio */
+
+.invisible {
+    opacity: 0;
+}
+
+
+.portfolio-filter {
+    color: var(--primary-headlines-color);
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    letter-spacing: 0.03em;
+    background: #F5F4FA;
+    border-radius: 4px;
+}
+
+.portfolio-filter:hover,
+.portfolio-filter:focus {
+    color: var(--secondary-text-color);
+    background-color: var(--interactive-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.subject-portfolio {
+    color: var(--primary-headlines-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.portfolio-text {
+    color: var(--text-color);
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.03em;
+}
+
